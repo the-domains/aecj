@@ -1,28 +1,40 @@
-name: aecj
 favicon: null
-layout_spectrum: 0.13492442690767348
-typography_spectrum: 0.6198035760316998
-cta:
-  domain: null
-  bucket: null
-  version: null
-analytics:
-  google: null
-  facebook: null
-  twitter: null
+name: aecj
 opengraph:
   image: null
   type: null
   appId: null
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
+purpose: []
 color:
-  brandColors:
-    - '#B8B42D'
-    - '#697A21'
-    - '#FFFCE8'
-    - '#3E363F'
-    - '#DD403A'
+  saturation: 0.5087168782483786
   brandStrength: 0.9725684188306332
   lightness: 0.5120065517257899
-  saturation: 0.5087168782483786
+  brandColors:
+    - '#6E9AD6'
+    - '#303940'
+    - '#FAFFFF'
+    - '#FC4D5A'
+    - '#900005'
   rhythmicContrast: 0.2320778404828161
-purpose: []
+typography_spectrum: 0.509667
+layout_spectrum: 0
+analytics:
+  twitter: null
+  google: null
+  facebook: null
+cta:
+  bucket: null
+  version: null
+  domain: null
